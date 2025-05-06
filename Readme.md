@@ -43,8 +43,10 @@ Quiz Helper is a Python-based tool designed to assist with multiple-choice quizz
    ```
 
 4. **Set Up the Gemini API Key**:
-   - Replace `"YOUR_ACTUAL_API_KEY"` in `quiz_overlay.py` with your Gemini API key from Google AI Studio.
-
+   - Replace `"YOUR_ACTUAL_API_KEY"` in `.env` with your Gemini API key from Google AI Studio. create .env using 
+   ```bash
+   nano .env
+   ```
 5. **Create a Checkmark Image**:
    The program requires a `checkmark.png` with a transparent background. Generate one:
    ```python
